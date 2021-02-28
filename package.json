@@ -1,0 +1,17 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "@types/node": "^14.14.27"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node-modules ./index.ts "
+  }
+}
